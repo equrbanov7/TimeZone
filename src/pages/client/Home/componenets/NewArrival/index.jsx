@@ -6,31 +6,27 @@ import "./index.scss";
 const NewArrival = () => {
   const { data: products } = useGetAllProductsQuery();
 
-  console.log("products", products);
-
   return (
     <div className="NewArrival">
-
       <div className="NewArrivalContainer">
-
-      <div className="NewArrivalsectionHeader">
-        <h2>New Arrivals</h2>
-      </div>
-      <div className="customContainer">
-        <div className="NewArrivalProducts">
-          {products?.slice(0, 3)?.map((product, index) => {
-            return (
-              <CardImage
-                key={index}
-                imgSrc={product.image}
-                showBottom={true}
-                price={product.price}
-                title={product.title}
-              />
-            );
-          })}
+        <div className="NewArrivalsectionHeader">
+          <h2>New Arrivals</h2>
         </div>
-      </div>
+        <div className="customContainer">
+          <div className="NewArrivalProducts">
+            {products?.slice(0, 3)?.map((product, index) => {
+              return (
+                <CardImage
+                  key={index}
+                  imgSrc={product.image}
+                  showBottom={true}
+                  price={product.price}
+                  title={product.title}
+                />
+              );
+            })}
+          </div>
+        </div>
       </div>
     </div>
   );

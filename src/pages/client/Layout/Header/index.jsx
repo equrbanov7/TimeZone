@@ -39,10 +39,10 @@ const Header = () => {
       <div className="HeaderContainer">
         <div className="HeaderLogo">
           <h1 className="FirstLogoSide">
-            <Link>COLOR</Link>
+            <Link>TIME</Link>
           </h1>
           <h1 className="SecondLogoSide">
-            <Link>SHOP</Link>
+            <Link>ZONE</Link>
           </h1>
         </div>
         <div className="HeaderNavbarAndAuth">

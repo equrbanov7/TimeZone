@@ -1,0 +1,17 @@
+.watch-details h2 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.watch-details .btn {
+  font-size: 25px;
+  padding: 10px 30px;
+  background-color: red;
+  color: white;
+}
+.watch-details p {
+  margin: 40px 0;
+}
+.watchMargin {
+  margin: 150px 0 !important;
+}

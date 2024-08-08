@@ -1,29 +1,25 @@
 /* eslint-disable react/prop-types */
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "./index.scss";
 
-const CardImage = ({
-  title,
-  imgSrc,
-  showBottom = false,
-  price,
-}) => {
-  return (
-    <div className="CardImage">
-      <div
-        className="CardImageInner"
-      //  style={{ backgroundImage: `url(${imgSrc})` }}
-      >
+const CardImage = ({ id, title, imgSrc, showBottom = false, price }) => {
+  const navigate = useNavigate();
 
+  const handleNavigateProductInfo = () => {
+    navigate(`/products/${id}`);
+  };
+
+  return (
+    <div className="CardImage" onClick={handleNavigateProductInfo}>
+      <div className="CardImageInner">
         <div className="imgContainer">
-          <img src={imgSrc} alt="" />
+          <img src={imgSrc} alt={title} />
         </div>
-       
       </div>
 
       {showBottom && (
         <div className="CardImageBottom">
-          <h3>{title} </h3>
+          <h3>{title.length > 15 ? title.slice(0, 15) + "..." : title}</h3>
           <h5>${price}</h5>
         </div>
       )}

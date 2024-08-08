@@ -49,7 +49,7 @@ export const CustomCardTopSideInfo = ({
     }
   };
 
-  const isFavorite = user?.favorites.includes(productId);
+  const isFavorite = user?.favorites?.includes(productId);
 
   return (
     <div

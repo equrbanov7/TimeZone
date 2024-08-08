@@ -84,7 +84,7 @@
       "rating": 5
     },
     {
-      "id": "ef43",
+      "id": "6",
       "title": "NewProduct",
       "price": "139",
       "image": "https://preview.colorlib.com/theme/coloshop/images/product_1.png",
@@ -94,7 +94,7 @@
       "rating": "3"
     },
     {
-      "id": "5205",
+      "id": "7",
       "title": "LastProduct",
       "price": "35",
       "image": "https://preview.colorlib.com/theme/coloshop/images/product_1.png",
@@ -102,26 +102,6 @@
       "discount": "",
       "status": "",
       "rating": "2"
-    },
-    {
-      "id": "22ca",
-      "title": "asda",
-      "price": "213",
-      "image": " ",
-      "category_id": "2",
-      "discount": "",
-      "status": "",
-      "rating": "4.1"
-    },
-    {
-      "id": "bb4e",
-      "title": "das",
-      "price": "21",
-      "image": "sad",
-      "category_id": "2",
-      "discount": "16",
-      "status": "",
-      "rating": "12"
     }
   ],
   "categories": [

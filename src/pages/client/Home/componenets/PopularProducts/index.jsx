@@ -2,9 +2,11 @@ import { useGetAllProductsQuery } from "../../../../../redux/rtkQuery/productApi
 import CustomCard from "../../../../../components/Card";
 
 import "./index.scss";
+import { useState } from "react";
 
 const PopularProducts = () => {
   const { data: products } = useGetAllProductsQuery();
+  const [user, setUser] = useState(null);
 
   return (
     <div className="PopularProducts">
@@ -32,6 +34,8 @@ const PopularProducts = () => {
               showLeftTop={showLeftTop}
               productId={product.id}
               showBasket={true}
+              user={user}
+              setUser={setUser}
             />
           );
         })}

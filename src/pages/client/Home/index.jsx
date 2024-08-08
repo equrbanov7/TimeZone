@@ -8,6 +8,7 @@ import Slider from "./componenets/Slider";
 import SwiperCards from "./componenets/SliderCards";
 import Subscribe from "./componenets/Subscribe";
 import GalleryArea from "./componenets/GalleryArea/GalleryArea";
+import WatchOfChoice from "./componenets/WatchOfChoice/WatchOfChoice";
 
 const ClientHome = () => {
   return (
@@ -32,20 +33,14 @@ const ClientHome = () => {
         <link rel="canonical" href="https://www.example.com" />
       </Helmet>
       <Slider />
-
       <Categories />
-
       <NewArrival />
       <GalleryArea />
-
       <DealOfTheWeek />
-
       <SwiperCards />
-
       <Benefit />
-
       <LatestBlogs />
-
+      <WatchOfChoice />
       <Subscribe />
     </div>
   );

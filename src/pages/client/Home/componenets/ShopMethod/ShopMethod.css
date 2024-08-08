@@ -1,0 +1,16 @@
+.method-wrapper {
+  background-color: red;
+}
+
+.method-wrapper h6 {
+  color: white;
+}
+
+.method-wrapper p {
+  color: rgba(255, 255, 255, 0.744);
+  width: 300px;
+}
+
+.method-wrapper .single-method {
+  padding: 50px;
+}

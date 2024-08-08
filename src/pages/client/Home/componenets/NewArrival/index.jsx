@@ -121,7 +121,7 @@ const NewArrival = () => {
                 aria-label="action tabs example"
               >
                 <Tab label={"All"} {...a11yProps(0)} />
-                {categories.map((category, index) => (
+                {categories?.map((category, index) => (
                   <Tab
                     key={category?.id}
                     label={category?.name}
@@ -158,7 +158,7 @@ const NewArrival = () => {
                   );
                 })}
               </TabPanel>
-              {categories.map((category, index) => (
+              {categories?.map((category, index) => (
                 <TabPanel
                   key={index}
                   value={value}
@@ -167,7 +167,7 @@ const NewArrival = () => {
                 >
                   {filteredProducts
                     .filter((product) => product.category_id === category.id)
-                    .map((product) => {
+                    ?.map((product) => {
                       let showLeftTop = product.status === "New";
                       showLeftTop = Boolean(product.discount > 0);
                       return (

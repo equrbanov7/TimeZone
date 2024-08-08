@@ -4,6 +4,7 @@ import SwiperCards from "./componenets/SliderCards";
 import GalleryArea from "./componenets/GalleryArea/GalleryArea";
 import WatchOfChoice from "./componenets/WatchOfChoice/WatchOfChoice";
 import ShopMethod from "./componenets/ShopMethod/ShopMethod";
+import VideoArea from "./componenets/VideoArea/VideoArea";
 
 const ClientHome = () => {
   return (
@@ -12,6 +13,7 @@ const ClientHome = () => {
       <NewArrival />
       <GalleryArea />
       <SwiperCards />
+      <VideoArea />
       <WatchOfChoice />
       <ShopMethod />
     </>

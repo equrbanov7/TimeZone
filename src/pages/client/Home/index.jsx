@@ -9,6 +9,7 @@ import SwiperCards from "./componenets/SliderCards";
 import Subscribe from "./componenets/Subscribe";
 import GalleryArea from "./componenets/GalleryArea/GalleryArea";
 import WatchOfChoice from "./componenets/WatchOfChoice/WatchOfChoice";
+import ShopMethod from "./componenets/ShopMethod/ShopMethod"; 
 
 const ClientHome = () => {
   return (
@@ -47,6 +48,7 @@ const ClientHome = () => {
 
       <LatestBlogs />
       <WatchOfChoice />
+      <ShopMethod />
 
       <Subscribe />
     </div>

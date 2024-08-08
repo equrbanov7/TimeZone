@@ -1,0 +1,21 @@
+.Categories {
+  margin-top: 30px;
+  width: 100%;
+
+  .CustomnContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 1140px;
+  }
+
+  @media (max-width: 995px) {
+    .CustomnContainer {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+}

@@ -76,7 +76,7 @@ const Header = () => {
                 </Link>
               </li>
               <li>
-                <Link>
+                <Link to="/admin">
                   <PersonIcon />
                 </Link>
               </li>

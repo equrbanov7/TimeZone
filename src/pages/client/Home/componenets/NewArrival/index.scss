@@ -2,9 +2,13 @@
   margin-top: 60px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
   gap: 32px;
+
+  .NewArrivalContainer {
+    max-width: 1140px;
+    margin: auto;
+  }
   .customContainer {
     width: 100%;
     padding-right: 15px;
@@ -14,17 +18,23 @@
     margin-bottom: 8px;
   }
 
+  .NewArrivalProducts {
+    display: flex;
+    gap: 22px;
+  }
+
   .NewArrivalsectionHeader {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin-left: 100px;
+
     margin-bottom: 32px;
     gap: 32px;
     h2 {
-      color: #282828;
-      -webkit-font-smoothing: antialiased;
-      -webkit-text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
-      text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+      color: #000;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 1;
     }
 
     .line {

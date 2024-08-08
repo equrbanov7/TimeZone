@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import Benefit from "./componenets/Benefit";
-import Categories from "./componenets/Categories";
+// import Categories from "./componenets/Categories";
 import DealOfTheWeek from "./componenets/DealOfTheWeek";
 import LatestBlogs from "./componenets/LatestBlogs";
 import NewArrival from "./componenets/NewArrival";
@@ -32,7 +32,7 @@ const ClientHome = () => {
       </Helmet>
       <Slider />
 
-      <Categories />
+      {/* <Categories /> */}
 
       <NewArrival />
 

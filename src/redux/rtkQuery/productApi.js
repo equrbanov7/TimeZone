@@ -20,7 +20,7 @@ export const productAPI = createApi({
     tagTypes: ['Products'],
     endpoints: (builder) => ({
         getAllProducts: builder.query({
-            query: () => ENUMS.products,
+            query: () => "products",
             providesTags: ["Products"]
         }),
         getSingleProduct: builder.query({

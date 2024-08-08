@@ -6,6 +6,8 @@ import "./index.scss";
 const NewArrival = () => {
   const { data: products } = useGetAllProductsQuery();
 
+  console.log("products", products);
+
   return (
     <div className="NewArrival">
 

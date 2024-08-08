@@ -7,6 +7,7 @@ import WatchOfChoice from "./componenets/WatchOfChoice/WatchOfChoice";
 import PopularProducts from "./componenets/PopularProducts";
 
 import ShopMethod from "./componenets/ShopMethod/ShopMethod";
+import VideoArea from "./componenets/VideoArea/VideoArea";
 
 
 const ClientHome = () => {
@@ -16,6 +17,7 @@ const ClientHome = () => {
       <NewArrival />
       <GalleryArea />
       <SwiperCards />
+      <VideoArea />
       <WatchOfChoice />
       <PopularProducts />   
       <ShopMethod />

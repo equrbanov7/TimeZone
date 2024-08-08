@@ -7,6 +7,7 @@ import NewArrival from "./componenets/NewArrival";
 import Slider from "./componenets/Slider";
 import SwiperCards from "./componenets/SliderCards";
 import Subscribe from "./componenets/Subscribe";
+import GalleryArea from "./componenets/GalleryArea/GalleryArea";
 
 const ClientHome = () => {
   return (
@@ -35,6 +36,7 @@ const ClientHome = () => {
       <Categories />
 
       <NewArrival />
+      <GalleryArea />
 
       <DealOfTheWeek />
 

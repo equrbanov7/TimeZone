@@ -136,7 +136,7 @@ const NewArrival = () => {
               onChangeIndex={handleChangeIndex}
             >
               <TabPanel value={value} index={0} dir={theme.direction}>
-                {filteredProducts.map((product) => {
+                {filteredProducts?.map((product) => {
                   let showLeftTop = product.status === "New";
                   showLeftTop = Boolean(product.discount > 0);
                   return (

@@ -1,14 +1,12 @@
 import { Helmet } from "react-helmet-async";
 import Benefit from "./componenets/Benefit";
-import Categories from "./componenets/Categories";
+// import Categories from "./componenets/Categories";
 import DealOfTheWeek from "./componenets/DealOfTheWeek";
 import LatestBlogs from "./componenets/LatestBlogs";
 import NewArrival from "./componenets/NewArrival";
 import Slider from "./componenets/Slider";
 import SwiperCards from "./componenets/SliderCards";
 import Subscribe from "./componenets/Subscribe";
-import GalleryArea from "./componenets/GalleryArea/GalleryArea";
-import WatchOfChoice from "./componenets/WatchOfChoice/WatchOfChoice";
 
 const ClientHome = () => {
   return (
@@ -33,14 +31,19 @@ const ClientHome = () => {
         <link rel="canonical" href="https://www.example.com" />
       </Helmet>
       <Slider />
-      <Categories />
+
+      {/* <Categories /> */}
+
       <NewArrival />
-      <GalleryArea />
+
       <DealOfTheWeek />
+
       <SwiperCards />
+
       <Benefit />
+
       <LatestBlogs />
-      <WatchOfChoice />
+
       <Subscribe />
     </div>
   );
